@@ -1,0 +1,164 @@
+nav{
+    background-color: #F7EEDD;
+   
+}
+.nav-heading1{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+}
+.nav-heading2{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:  100;
+    font-style: italic;
+    font-size: 25px;
+}
+.nav-item a{
+    color: #6F4E37;
+    font-size: 17px;
+    font-weight: 300;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #6F4E37;
+}
+
+/* carousel */
+.carousel-item {
+   max-width: 100vw;
+   max-height: 90vh;
+}
+
+/* welcome */
+.welcome-section{
+    padding: 4%;
+    background-image:url(images/chidindu__26_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: left;
+    background-size: 50% 100%; 
+    background-color:  #F7EEDD;
+}
+@media screen and (max-width: 670px) {
+    .welcome-section{
+    background-size: 80% 50%; 
+    }
+  }
+.welcome-header{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:  100;
+    font-style: italic;
+    font-size: 42px;
+    text-align: center; 
+}
+.welcome-text{
+    font-size: 18px;
+    margin-top: 1%;
+    font-weight: 450;
+}
+
+/* products */
+.product-header{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:  100;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 2%;
+}
+.product-container{
+    padding: 2% 4% 1% 4%;
+}
+.card img{
+    height: 40vh;
+}
+.card-title:hover{
+    text-decoration: underline;
+}
+.product-btn{
+    background-color: #F1E5D1;
+    border-radius: 5px;
+    padding: 1% 3% 1% 3%;
+    border-color: #F7EEDD;
+}
+.product-btn:hover{
+    background-color: rgb(205, 190, 169);
+}
+.hover-image{
+        transition: opacity 0.5s;
+}
+
+/* About us */
+#Aboutus-section{
+    background-color: #F8F4E1;
+}
+.Aboutus-header{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:  100;
+    font-style: italic;
+    font-size: 48px;
+    text-align: center;
+}
+.Aboutus-container{
+    padding-top: 1%;
+}
+.diamond-icon{
+    color: #6F4E37;
+}
+.Aboutus-text{
+    font-size: 18px;
+    margin-top: 1%;
+    font-weight: 450;
+    padding-bottom: 2%;
+}
+
+/* Contact us */
+.Contactus-header{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:  100;
+    font-style: italic;
+    font-size: 48px;
+    text-align: center;
+}
+.send-btn{
+    background-color: #F1E5D1;
+    border-radius: 5px;
+    padding: 0% 1%;
+    border-color: #F7EEDD;
+}
+.send-btn:hover{
+    background-color: rgb(205, 190, 169);  
+}
+
+/* footer */
+
+.footer-container{
+    text-align: center;
+    background-color: #F7EEDD;
+    padding: 1% 0% 1% 0%;
+}
+.footer-heading1{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+.footer-heading2{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:  100;
+    font-style: italic;
+    font-size: 20px;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 500;
+}
